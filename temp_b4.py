@@ -18,7 +18,7 @@ while True:
         print tempAsFloat #prints temperature
 		
         #required functions for sending temperature to azure cloud. account_name='blobs name', account_key='blobs key'
-        blob_service = BlobService(account_name='subziren', account_key='xdCHRGPpyq5fj85ULW3Zf8sqMwHQr/FMSFfYI1oaECEtK6znbhRapkd3ec+dxsgZ2iMYco60XeZYZof9ZndsQw==')
+        blob_service = BlobService(account_name='*', account_key='*')
         #creates a container 'temperature'
         blob_service.create_container('temperature')
         #changes container permissions
