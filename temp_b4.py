@@ -29,4 +29,4 @@ while True:
     except:
         pass
 
-f.close() #sulkee lampotilatiedoston
+f.close() #closes the opened temperature file
